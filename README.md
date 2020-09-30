@@ -1,4 +1,13 @@
-# kSZ/kokkoSZ
+kokkosSZ (kSZ): A Portable Accelerator Implementation of SZ Using Kokkos  
+---
+
+# introduction
+
+kSZ is a [Kokkos](https://github.com/kokkos/kokkos)-based implementation of the world-widely used [SZ lossy compressor](https://github.com/szcompressor/SZ). We use Kokkos because it provides abstractions for both parallel execution of code and data management, which can be used to support portable implementation across different accelerator technologies. Kokkos can support OpenMP/OpenMPTarget, oneAPI, Pthreads, and CUDA as backend programming models. 
+
+(C) 2020 by Washington State University and Argonne National Laboratory. See COPYRIGHT in top-level directory.
+
+Developers: Jiannan Tian, Dingwen Tao, Sheng Di, Franck Cappello
 
 # compile
 The toolchain on login node is by default okay,
