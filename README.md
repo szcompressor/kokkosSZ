@@ -1,4 +1,4 @@
-kokkosSZ (kSZ): A Portable Accelerator Implementation of SZ Using Kokkos  
+kokkosSZ/kSZ: A Portable Accelerator Implementation of SZ Using Kokkos Programming Model
 ---
 
 # introduction
